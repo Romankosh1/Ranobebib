@@ -19,7 +19,7 @@ function Counter() {
               ? "red"
               : count >= 10
               ? "green"
-              : count == 0
+              : count === 0
               ? "hotpink"
               : "orange",
         }}
