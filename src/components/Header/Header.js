@@ -8,7 +8,7 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <div className="bg-primary py-2">
-      <div className="container-fluid">
+      <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-md-2 col-sm-12">
             <Link to="/">

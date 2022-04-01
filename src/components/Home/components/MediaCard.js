@@ -1,9 +1,22 @@
+import { Link } from "react-router-dom";
+
 const MediaCard = () => {
   return (
     <div className="card">
-      <img src="/img/tower.jpg" className="card-img-top" alt="..." />
+      <Link to="Tower">
+        <img
+          src="/img/tower.jpg"
+          className="card-img-top"
+          alt="Mightiness Tower"
+        />
+      </Link>
       <div className="card-body">
-        <p className="card-text fs-6 line-clamp">Mightiness Tower</p>
+        <a
+          href="Tower"
+          className="text-decoration-none text-reset card-link fs-6 line-clamp"
+        >
+          Mightiness Tower
+        </a>
       </div>
     </div>
   );
