@@ -14,3 +14,17 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.hover-link {
+  text-decoration: none;
+  color: var(--bs-body-color);
+}
+
+.hover-link:hover {
+  text-decoration: underline;
+  color: var(--bs-blue);
+}
+
+.start-5 {
+  left: 5% !important;
+}
