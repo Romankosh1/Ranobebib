@@ -5,7 +5,7 @@ const MediaCard = () => {
     <div className="card border-light">
       <Link to="Tower">
         <div
-          className="position-relative"
+          className="position-relative mb-1"
           title="Читать 99 главу. Башня небес!"
         >
           <img
@@ -18,9 +18,9 @@ const MediaCard = () => {
           </div>
         </div>
       </Link>
-      <div className="card-body ">
-        <a href="Tower" className="fs-6 line-clamp hover-link">
-          Mightiness Tower
+      <div>
+        <a href="Tower" className="fs-6 line-clamp-2 hover-link">
+          Башня Величия (Новелла)
         </a>
       </div>
     </div>
