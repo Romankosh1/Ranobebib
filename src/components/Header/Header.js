@@ -21,8 +21,10 @@ const Header = () => {
           </div>
           <div className="col-lg-4 col-md-5 col-sm-12">
             <div className="row">
-              <div className="col col-md-3">
+              <div className="col col-md-4">
                 <Tippy
+                  maxWidth={170}
+                  placement="bottom-start"
                   content={
                     <div className="row">
                       <div className="col-12">
@@ -76,7 +78,11 @@ const Header = () => {
                   animation="shift-toward-subtle"
                   interactive
                 >
-                  <button className="btn btn-primary">Котолог</button>
+                  <button className="btn btn-primary d-flex align-items-center">
+                    <i className="fa fa-bars" />
+                    <span className="mx-1">Котолог</span>
+                    <i className="fa fa-caret-down" />
+                  </button>
                 </Tippy>
               </div>
               <div className="col col-md-3">
@@ -87,6 +93,8 @@ const Header = () => {
               </div>
               <div className="col col-md-2">
                 <Tippy
+                  maxWidth={170}
+                  placement="bottom-start"
                   content={
                     <div className="row">
                       <div className="col-12">
