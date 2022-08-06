@@ -98,7 +98,7 @@ const TopUsersList = () => {
   return (
     <div className="bg-white rounded pt-3 pb-3">
       <div className="px-3">
-        <h6>Топ активных недели</h6>
+        <h6 className="user_title">Топ активных недели</h6>
       </div>
       <hr className="bg-primary" style={{ height: 2, opacity: 1 }} />
       <div className="px-3">
