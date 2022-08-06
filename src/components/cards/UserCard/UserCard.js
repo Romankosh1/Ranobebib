@@ -14,21 +14,21 @@ const UserCard = ({
       </div>
       <div className="col-9">
         <div className="row">
-          <div className="col">
+          <div className="col user_name pb-1">
             <a href={profileLink} className="hover-link">
               {nickname}
             </a>
           </div>
-          <div className="col d-flex justify-content-end">
+          <div className="col d-flex justify-content-end user_name">
             <b>#{topPosition}</b>
           </div>
         </div>
         <div className="row">
           <div className="col">
-            <span style={{ fontSize: 12 }}>Уровень: {level}</span>
+            <span className="user_level">Уровень: {level}</span>
           </div>
           <div className="col d-flex align-items-center justify-content-end">
-            <span style={{ fontSize: 12, marginTop: 3 }}>
+            <span className="user_level">
               {exp} / {expLimit}
             </span>
           </div>

@@ -46,3 +46,35 @@ body {
     max-width: 1200px;
   }
 }
+
+.block_title {
+  font-size: 17px;
+}
+
+.card_title {
+  font-size: 13px;
+}
+
+.user_title {
+  font-size: 15px;
+}
+
+.user_name {
+  font-size: 14px;
+}
+
+.user_level {
+  font-size: 12px;
+  color: grey;
+}
+.theme_name {
+  font-size: 14px;
+}
+
+.theme_user {
+  font-size: 12px;
+}
+
+.theme_date {
+  font-size: 12px;
+}

@@ -13,13 +13,13 @@ const MediaCard = () => {
             className="card-img-top"
             alt="Mightiness Tower"
           />
-          <div className="position-absolute bottom-0 start-5 text-white">
+          <div className="position-absolute bottom-0 start-5 text-white card_title">
             Том 1 Глава 99
           </div>
         </div>
       </Link>
       <div>
-        <a href="Tower" className="fs-6 line-clamp-2 hover-link">
+        <a href="Tower" className="line-clamp-2 hover-link card_title">
           Башня Величия (Новелла)
         </a>
       </div>
